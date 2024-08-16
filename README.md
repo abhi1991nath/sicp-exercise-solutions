@@ -1,1 +1,1 @@
-Contains my solutions to some of the exercises from the classic book **Structure and Interpretation of Computer Programs**.
+Contains my solutions to some of the exercises from the classic book **[Structure and Interpretation of Computer Programs](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/index.html)**.
