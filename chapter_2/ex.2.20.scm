@@ -1,0 +1,10 @@
+(define (same-parity i . l)
+  (define (correct-parity? x)
+    (= (remainder x 2) (remainder i 2)))
+  (define (same-parity-helper items)
+    (if (null? items)
+        items
+        (if (correct-parity? (car items))
+            (cons (car items) (same-parity-helper (cdr items)))
+            (same-parity-helper (cdr items)))))
+  (cons i (same-parity-helper l)))
